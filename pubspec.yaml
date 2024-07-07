@@ -52,6 +52,15 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont.ttf  # Example font asset declaration
+
+  assets:  
+    - assets/refresh_icon.png  # Include your custom icon file
+
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
